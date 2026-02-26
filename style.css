@@ -210,19 +210,6 @@ body {
     color:#ffffff
 }
 
-.fade-in {
-  opacity: 0;
-  transform: translateY(20px); /* agak turun dulu sebelum muncul */
-  animation: fadeIn 1s forwards;
-}
-
-@keyframes fadeIn {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
 /* FOOTER */
 footer {
     text-align: center;
